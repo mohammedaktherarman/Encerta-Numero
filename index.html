@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="index.css">
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="general">
+        <div id="div1">
+            <h1>Adivina el numero del 1 al 20</h1>
+            <button id="boton2" onclick="reinicia()"><h2>Reinicia</h2></button>
+        </div>
+
+        <div id="div2">
+            <h1>Busca el Numero</h1>
+            <div> 
+                <h1 id="incognita">?</h1> 
+            </div>
+            <input type="number" id="input">
+            <button onclick="numeroenviado()">Enviar</button>
+            <p id="frase">Començem la partida</p>
+            <p id="jugades"></p>
+            <p id="puntos"></p>
+        </div>
+    </div> 
+
+    <script src="main.js"></script>
+</body>
+</html>
